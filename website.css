@@ -12,9 +12,9 @@
    
    TSS Typographic Style Sheet
    Author: Diana Quintero
-   Date:   February 22, 2022
+   Date:   February 23, 2022
    
-   Filename: tss_styles.css
+   Filename: website.css
 
 */
 
@@ -23,11 +23,11 @@
 /* HTML and Body Styles */
 
 html {
-    background-color: hsl(245, 255, 250);
+    background-color: hsl(255, 20%, 72%);
 }
 
 body {
-    color: rgb(91, 91, 91);
+    color: rgb(255, 255, 240);
     background-color: ivory;
     font-family: Verdana, Geneva, sans-serif;
 }
@@ -49,16 +49,16 @@ h1, h2 {
 
 article#about_tss h1 {
     color: white;
-    background-color: rgb(222, 128, 60);
+    background-color: rgb(255, 228, 225);
 }
 
 article#about_tss h2 {
     color: white;
-    background-color: rgb(235, 177, 131);
+    background-color: rgb(255, 228, 225);
 }
 
 article.syllabus h1, article.syllabus h2 {
-    background-color: rgb(255, 185, 255);
+    background-color: rgb(255, 228, 225);
     color: rgb(101, 101, 101);
 }
 
@@ -82,6 +82,8 @@ nav {
 
 nav > ul {
     line-height: 2em;
+    list-style-type: none;
+    padding-left: 5px;
 }
 
 /* List Styles */
@@ -93,7 +95,7 @@ nav > ul {
 /* Footer Styles */
 
 body > footer address {
-    background-color: rgb(222,128, 60);
+    background-color: rgb(255,228,225);
     color: white; color: rgba(255, 255, 255, 0.7);
     font: normal small-caps bold 0.9em/3em
         Quicksand, Verdana, Geneva, sans-serif;
