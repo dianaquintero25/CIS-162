@@ -23,7 +23,8 @@
 /* HTML and Body Styles */
 
 html {
-    background-color: hsl(255, 20%, 72%);
+    color: #F0FFF0
+    background-color: honeydew;
 }
 
 body {
@@ -48,12 +49,12 @@ h1, h2 {
 }
 
 article#about_tss h1 {
-    color: white;
+    color: black;
     background-color: rgb(255, 228, 225);
 }
 
 article#about_tss h2 {
-    color: white;
+    color: black;
     background-color: rgb(255, 228, 225);
 }
 
