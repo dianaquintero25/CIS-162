@@ -28,8 +28,8 @@ html {
 }
 
 body {
-    color: #FFFFFF;
-    background-color: #90EE90;
+    color: #8A9A5B;
+    background-color: #ECFFDC;
     font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -98,7 +98,7 @@ nav > ul {
 body > footer address {
     background-color: #FFFFFF;
     color: black; color: #000000
-    font: normal small-caps bold 0.9em/3em
+    font: normal small-caps bold 0.5em/0.8em
         Quicksand, Verdana, Geneva, sans-serif;
     text-align: center;
 }
