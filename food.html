@@ -26,6 +26,22 @@
     .active {
         background-color: #04AA6D;
     }
+    
+    * {
+        box-sizing: border-box;
+    }
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
 </style>
     
      <meta charset="utf-8" />
