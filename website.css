@@ -23,13 +23,13 @@
 /* HTML and Body Styles */
 
 html {
-    color: #000000
-    background-color: black;
+    color: #FFFFFF
+    background-color: white;
 }
 
 body {
-    color: #FFFFFF;
-    background-color: white;
+    color: #000000;
+    background-color: black;
     font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -96,8 +96,8 @@ nav > ul {
 /* Footer Styles */
 
 body > footer address {
-    background-color: rgb(255,228,225);
-    color: white; color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: black; color: #000000
     font: normal small-caps bold 0.9em/3em
         Quicksand, Verdana, Geneva, sans-serif;
     text-align: center;
